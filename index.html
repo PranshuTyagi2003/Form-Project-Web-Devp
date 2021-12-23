@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="left">GoodVibesForm</li>
+                <li class="right" id="home1"><a href="home.txt" id="home"> Home</a></li>
+                <li class="right" id="about1"><a href="about.txt" id="about">About</a></li>
+                <li class="right" id="contact1"><a href="contact.txt" id="contact"> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="head">
+            <h1>Good Vibes Form</h1>
+        </div>
+        <div class="middle">
+            <div class="form">
+                <br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name
+                &nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter Your Name..."><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-Mail &nbsp;&nbsp;&nbsp;<input type="email"
+                    placeholder="Your Email..."><br><br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On a scale of 1-10, how good was it?
+                &nbsp;&nbsp;&nbsp;<input type="number" placeholder="Enter a number between 1 and 10" min="1"
+                    max="10"><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="travel">Where Did it happen?
+                    &nbsp;&nbsp;&nbsp;</label>
+                <select name="mode" id="mode">&nbsp;&nbsp;&nbsp;
+                    <option value="home">At Home</option>
+                    <option value="commute">On my Commute</option>
+                    <option value="work">At Work</option>
+                    <option value="street">On the street</option>
+                    <option value="other">Other</option>
+                </select> <br><br>
+
+
+                &#8195;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="time">At What time did it happen?</label><br>
+                <label for="morning">
+                    &#8195;&nbsp;&nbsp;&nbsp;&nbsp;&#8195;&#8195;<input type="radio" value="morning"
+                        id="morning" name="morning">Morning</label><br>
+                <label for="afternoon">
+                    &#8195;&nbsp;&nbsp;&nbsp;&nbsp;&#8195;&#8195;<input type="radio" value="afternoon"
+                        id="afternoon" name="morning">Afternoon</label>
+                <label for="night"><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&#8195;&#8195;&#8195;<input type="radio" value="night"
+                        id="night" name="morning">Night</label><br><br>
+
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What emotions did you experience?<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Select all that apply)
+                <br>&#8195;&#8195;&#8195;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="emotions" id="excited">
+                <label for="emotions">Excited</label><br>
+                &#8195;&#8195;&#8195;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="emotions" id="humbled">
+                <label for="emotions">Humbled</label><br>
+                &#8195;&#8195;&#8195;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="emotions" id="elated">
+                <label for="emotions">Elated</label><br>
+                &#8195;&#8195;&#8195;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="emotions" id="loved">
+                <label for="emotions">Loved</label><br>
+                &#8195;&#8195;&#8195;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="emotions" id="enthusiastic">
+                <label for="emotions">Enthusiastic</label><br><br>
+
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How was Your experience
+                <br>&#8195;&#8195;&#8195;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea name="explain"
+                    id="describe" cols="30" rows="10" placeholder="Enter Your experience here..."></textarea><br>
+
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+
+
+    </main>
+    <footer class="footer">
+        <p>Made by @PranshuTyagi on 19-11-2021</p>
+    </footer>
+</body>
+
+</html>

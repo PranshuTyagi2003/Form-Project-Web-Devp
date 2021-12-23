@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul{
+    background-color: black;
+    width: 100vw;
+    height: 70px;
+    color: wheat;
+    display: inline-flex;
+    list-style: none;
+}
+
+.left{
+    font-size: x-large;
+    margin: 20px 1000px 0px 20px;
+}
+
+.right{
+    background-color: white;
+    font-size: large;
+    padding: 20px 20px 10px 10px;
+    height: fit-content;
+    
+}
+
+#home{
+    /* background-color: gray; */
+    /* color: black; */
+    /* height: fit-content; */
+    /* height: 50px; */
+    /* width: 50px; */
+    /* border-radius: 10px; */
+    /* align-self: center; */
+    /* margin: 0px 10px 0px 0px; */
+    text-decoration: none;
+}
+
+#home:hover{
+    color: red;
+}
+
+#contact:hover{
+    color: red;
+}
+
+#about:hover{
+    color: blue;
+}
+
+#about{
+    /* background-color: green;
+    color: black;
+    height: fit-content;
+    border-radius: 10px;
+    align-self: center;
+    margin: 0px 10px 0px 10px; */
+    text-decoration: none;
+}
+
+#contact{
+    /* background-color: gray;
+    color: black;
+    height: fit-content;
+    border-radius: 10px;
+    align-self: center;
+    margin: 0px 10px 0px 10px; */
+    text-decoration: none;
+}
+
+#home1{
+    background-color: gray;
+    color: black;
+    height: fit-content;
+    border-radius: 10px;
+    align-self: center;
+    margin: 0px 10px 0px 10px; 
+}
+
+#home1:hover{
+    background-color: rgb(240, 228, 228);
+    font-weight: bold;
+}
+
+
+#about1{
+    background-color: green;
+    color: black;
+    height: fit-content;
+    border-radius: 10px;
+    align-self: center;
+    margin: 0px 10px 0px 10px; 
+}
+
+#about1:hover{
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+#contact1{
+    background-color: gray;
+    color: black;
+    height: fit-content;
+    border-radius: 10px;
+    align-self: center;
+    margin: 0px 10px 0px 10px; 
+}
+
+#contact1:hover{
+    background-color: rgb(240, 228, 228);
+    font-weight: bold;
+}
+
+main{
+    background-color: cyan;
+    height: 150vh;
+    overflow: hidden;
+}
+
+.head{
+    display: block;
+    margin-left: 600px;
+    font-size: 1.5em;
+
+}
+
+.middle{
+    background-color: white;
+    height: 900px;
+    width: 800px;
+    margin-left: 347px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    text-align: justify;
+}
+
+.form{
+    padding: 0px 0px 0px 143px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+button {
+    border: none;
+    background-color: green;
+    color: black;
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 28px 0px 0px 178px;
+
+
+}
+
+button:hover{
+    background-color: lightgreen;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
